@@ -1,0 +1,53 @@
+const employee = [{
+    "id": 1,
+    "first_name": "Orren",
+    "last_name": "Southcomb",
+    "email": "osouthcomb0@nsw.gov.au"
+}, {
+    "id": 2,
+    "first_name": "Lauren",
+    "last_name": "Drynan",
+    "email": "ldrynan1@guardian.co.uk"
+}, {
+    "id": 3,
+    "first_name": "Giff",
+    "last_name": "Behan",
+    "email": "gbehan2@moonfruit.com"
+}, {
+    "id": 4,
+    "first_name": "Carney",
+    "last_name": "Gant",
+    "email": "cgant3@list-manage.com"
+}, {
+    "id": 5,
+    "first_name": "Verena",
+    "last_name": "Malby",
+    "email": "vmalby4@tmall.com"
+}, {
+    "id": 6,
+    "first_name": "Jazmin",
+    "last_name": "Hallows",
+    "email": "jhallows5@parallels.com"
+}, {
+    "id": 7,
+    "first_name": "Tami",
+    "last_name": "Tanser",
+    "email": "ttanser6@dailymail.co.uk"
+}, {
+    "id": 8,
+    "first_name": "Jeramie",
+    "last_name": "Duckworth",
+    "email": "jduckworth7@intel.com"
+}, {
+    "id": 9,
+    "first_name": "Dennison",
+    "last_name": "Gallaher",
+    "email": "dgallaher8@sciencedaily.com"
+}, {
+    "id": 10,
+    "first_name": "Skipper",
+    "last_name": "Hutchins",
+    "email": "shutchins9@bravesites.com"
+}]
+
+module.exports = employee;

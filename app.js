@@ -85,7 +85,7 @@ let index1;
         tasks.forEach((task,index) => { 
  index1=index;
 
-            console.log("vscs ",task)
+            
             if(task.id == id){
 temp = task;
         } } );
@@ -93,11 +93,12 @@ temp = task;
         tasks.splice(index1,1);
         
 
-        console.log("task : ",temp);
+       
 
         let index = tasks.findIndex((tasks) => {
             return tasks.id == parseInt(id)
         })
+        console.log(index)
         if (index >= 0) {
             let usr = tasks[index]
             usr.name = name
